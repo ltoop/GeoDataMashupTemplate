@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A66934A819F7F34500C3B01C /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66934A719F7F34500C3B01C /* HelperFunctions.swift */; };
 		A66EB9D719F350C700CA758B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66EB9D619F350C700CA758B /* AppDelegate.swift */; };
 		A66EB9D919F350C700CA758B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66EB9D819F350C700CA758B /* FirstViewController.swift */; };
-		A66EB9DB19F350C700CA758B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66EB9DA19F350C700CA758B /* SecondViewController.swift */; };
 		A66EB9DE19F350C700CA758B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66EB9DC19F350C700CA758B /* Main.storyboard */; };
 		A66EB9E019F350C700CA758B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66EB9DF19F350C700CA758B /* Images.xcassets */; };
 		A66EB9E319F350C700CA758B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66EB9E119F350C700CA758B /* LaunchScreen.xib */; };
 		A66EB9EF19F350C700CA758B /* GeoDataMashupTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66EB9EE19F350C700CA758B /* GeoDataMashupTemplateTests.swift */; };
+		A66EBA2919F66C1A00CA758B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66EBA2819F66C1A00CA758B /* Model.swift */; };
+		A66EBA2B19F675B500CA758B /* GenericPointLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66EBA2A19F675B500CA758B /* GenericPointLocation.swift */; };
+		A66EBA2D19F6782C00CA758B /* SeismiDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66EBA2C19F6782C00CA758B /* SeismiDataSource.swift */; };
+		A66EBA3019F68CBA00CA758B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66EBA2F19F68CBA00CA758B /* SwiftyJSON.swift */; };
+		A66EBA3F19F7BC8800CA758B /* Alamofire.framework in Copy Files (1 item) */ = {isa = PBXBuildFile; fileRef = A66EBA3919F7BBF700CA758B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,20 +29,60 @@
 			remoteGlobalIDString = A66EB9D019F350C700CA758B;
 			remoteInfo = GeoDataMashupTemplate;
 		};
+		A66EBA3819F7BBF700CA758B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A66EBA3319F7BBF700CA758B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		A66EBA3A19F7BBF700CA758B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A66EBA3319F7BBF700CA758B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
+		};
+		A66EBA3C19F7BC4600CA758B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A66EBA3319F7BBF700CA758B /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A66EBA3E19F7BC6600CA758B /* Copy Files (1 item) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A66EBA3F19F7BC8800CA758B /* Alamofire.framework in Copy Files (1 item) */,
+			);
+			name = "Copy Files (1 item)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A66934A719F7F34500C3B01C /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 		A66EB9D119F350C700CA758B /* GeoDataMashupTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoDataMashupTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66EB9D519F350C700CA758B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A66EB9D619F350C700CA758B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A66EB9D819F350C700CA758B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A66EB9DA19F350C700CA758B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A66EB9DD19F350C700CA758B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A66EB9DF19F350C700CA758B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A66EB9E219F350C700CA758B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A66EB9E819F350C700CA758B /* GeoDataMashupTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoDataMashupTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66EB9ED19F350C700CA758B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A66EB9EE19F350C700CA758B /* GeoDataMashupTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDataMashupTemplateTests.swift; sourceTree = "<group>"; };
+		A66EBA2819F66C1A00CA758B /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A66EBA2A19F675B500CA758B /* GenericPointLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericPointLocation.swift; sourceTree = "<group>"; };
+		A66EBA2C19F6782C00CA758B /* SeismiDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeismiDataSource.swift; path = DataSources/SeismiDataSource.swift; sourceTree = "<group>"; };
+		A66EBA2F19F68CBA00CA758B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		A66EBA3319F7BBF700CA758B /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				A66EB9D319F350C700CA758B /* GeoDataMashupTemplate */,
+				A66EBA3219F7BBCC00CA758B /* Libraries and Frameworks */,
 				A66EB9EB19F350C700CA758B /* GeoDataMashupTemplateTests */,
 				A66EB9D219F350C700CA758B /* Products */,
 			);
@@ -80,11 +126,14 @@
 			isa = PBXGroup;
 			children = (
 				A66EB9D619F350C700CA758B /* AppDelegate.swift */,
-				A66EB9D819F350C700CA758B /* FirstViewController.swift */,
-				A66EB9DA19F350C700CA758B /* SecondViewController.swift */,
-				A66EB9DC19F350C700CA758B /* Main.storyboard */,
-				A66EB9DF19F350C700CA758B /* Images.xcassets */,
 				A66EB9E119F350C700CA758B /* LaunchScreen.xib */,
+				A66EB9DC19F350C700CA758B /* Main.storyboard */,
+				A66EB9D819F350C700CA758B /* FirstViewController.swift */,
+				A66EBA2819F66C1A00CA758B /* Model.swift */,
+				A66EBA2A19F675B500CA758B /* GenericPointLocation.swift */,
+				A66934A719F7F34500C3B01C /* HelperFunctions.swift */,
+				A66EB9DF19F350C700CA758B /* Images.xcassets */,
+				A66EBA2E19F6783700CA758B /* DataSources */,
 				A66EB9D419F350C700CA758B /* Supporting Files */,
 			);
 			path = GeoDataMashupTemplate;
@@ -115,6 +164,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A66EBA2E19F6783700CA758B /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				A66EBA2C19F6782C00CA758B /* SeismiDataSource.swift */,
+			);
+			name = DataSources;
+			sourceTree = "<group>";
+		};
+		A66EBA3219F7BBCC00CA758B /* Libraries and Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A66EBA3319F7BBF700CA758B /* Alamofire.xcodeproj */,
+				A66EBA2F19F68CBA00CA758B /* SwiftyJSON.swift */,
+			);
+			name = "Libraries and Frameworks";
+			path = GeoDataMashupTemplate;
+			sourceTree = "<group>";
+		};
+		A66EBA3419F7BBF700CA758B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A66EBA3919F7BBF700CA758B /* Alamofire.framework */,
+				A66EBA3B19F7BBF700CA758B /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,10 +201,12 @@
 				A66EB9CD19F350C700CA758B /* Sources */,
 				A66EB9CE19F350C700CA758B /* Frameworks */,
 				A66EB9CF19F350C700CA758B /* Resources */,
+				A66EBA3E19F7BC6600CA758B /* Copy Files (1 item) */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A66EBA3D19F7BC4600CA758B /* PBXTargetDependency */,
 			);
 			name = GeoDataMashupTemplate;
 			productName = GeoDataMashupTemplate;
@@ -182,6 +260,12 @@
 			mainGroup = A66EB9C819F350C700CA758B;
 			productRefGroup = A66EB9D219F350C700CA758B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A66EBA3419F7BBF700CA758B /* Products */;
+					ProjectRef = A66EBA3319F7BBF700CA758B /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A66EB9D019F350C700CA758B /* GeoDataMashupTemplate */,
@@ -189,6 +273,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A66EBA3919F7BBF700CA758B /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = A66EBA3819F7BBF700CA758B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A66EBA3B19F7BBF700CA758B /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = A66EBA3A19F7BBF700CA758B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A66EB9CF19F350C700CA758B /* Resources */ = {
@@ -215,9 +316,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A66EB9DB19F350C700CA758B /* SecondViewController.swift in Sources */,
+				A66934A819F7F34500C3B01C /* HelperFunctions.swift in Sources */,
 				A66EB9D719F350C700CA758B /* AppDelegate.swift in Sources */,
 				A66EB9D919F350C700CA758B /* FirstViewController.swift in Sources */,
+				A66EBA2919F66C1A00CA758B /* Model.swift in Sources */,
+				A66EBA2D19F6782C00CA758B /* SeismiDataSource.swift in Sources */,
+				A66EBA3019F68CBA00CA758B /* SwiftyJSON.swift in Sources */,
+				A66EBA2B19F675B500CA758B /* GenericPointLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +341,11 @@
 			isa = PBXTargetDependency;
 			target = A66EB9D019F350C700CA758B /* GeoDataMashupTemplate */;
 			targetProxy = A66EB9E919F350C700CA758B /* PBXContainerItemProxy */;
+		};
+		A66EBA3D19F7BC4600CA758B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = A66EBA3C19F7BC4600CA758B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -411,6 +521,7 @@
 				A66EB9F419F350C700CA758B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A66EB9F519F350C700CA758B /* Build configuration list for PBXNativeTarget "GeoDataMashupTemplateTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +530,7 @@
 				A66EB9F719F350C700CA758B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
