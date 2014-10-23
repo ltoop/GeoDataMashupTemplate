@@ -22,10 +22,11 @@ This project will adopt Cocoapods as soon as they can support Swift frameworks a
 
 * Alamofire for networking
 
-** this is a Git submodule, so you will need to run `git submodule init` to pull in the necessary files
+This is a Git submodule, so you will need to run `git submodule init` to pull in the necessary files, followed by `git submodule update`
+
 * SwiftyJSON for JSON parsing
 
-** This file has been incorporated directly. Check https://github.com/SwiftyJSON/SwiftyJSON for new versions. 
+This file has been incorporated directly. Check https://github.com/SwiftyJSON/SwiftyJSON for new versions. 
 
 ## Making your own modifications
 
