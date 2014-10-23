@@ -1,8 +1,11 @@
 ## Geolocation Data Mashup Template
 
 If you have attended the GovHack hackathons, a few things become very obvious:
+
 1. People want to try new things and experiment with new technologies 
+
 2. There are bucketloads of interesting geodata and ideas for making this available as mobile apps
+
 3. Lots of teams are interested in making mobile apps, but very few actually make it to the finals with a working demo
 
 This project is an attempt to help get more people over the hump and building useful apps in the course of a weekend:
@@ -18,8 +21,10 @@ Dependencies have been kept to a minumum for productivity
 This project will adopt Cocoapods as soon as they can support Swift frameworks and libraries. In the meanwhile, using git submodules or copying in dependencies directly is the way to do it :/
 
 * Alamofire for networking
+
 ** this is a Git submodule, so you will need to run `git submodule init` to pull in the necessary files
 * SwiftyJSON for JSON parsing
+
 ** This file has been incorporated directly. Check https://github.com/SwiftyJSON/SwiftyJSON for new versions. 
 
 ## Making your own modifications
@@ -47,6 +52,7 @@ This project will adopt Cocoapods as soon as they can support Swift frameworks a
 ## Anything else?
 
 GovHack is excellent fun and a great opportunity to meet interesting people. 
-If you like playing with data (not even necessarily geodata!) you will love it :)
+
+If you like playing with data (not even necessarily geodata!) you are going to get a lot out of it!
 
 http://www.govhack.org
